@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+window.${1:class} = {
+  ${2:model}: Backbone.Model.extend({
+    defaults: {
+
+    },
+    initialize: function() {
+
+    }
+
+  }),
+
+  ${3:view}: Backbone.View.extend({
+    events: {
+
+    },
+
+    initialize: function() {
+      this.render();
+    },
+
+    render: function() {
+      return this;
+    }
+
+  })
+}
+]]></content>
+  <tabTrigger>back</tabTrigger>
+</snippet>
